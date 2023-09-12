@@ -86,6 +86,173 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ------------------------------- GLOBAL STYLES ------------------------------- */
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+/* ------------------------------- HEADER STYLES ------------------------------- */
+
+.header-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+/* -------- LOGO ------- */
+.logo {
+
+}
+
+.header-divider {
+
+}
+
+/* ----- NAVIGATION ---- */
+nav {
+
+}
+
+/*header ul {
+
+}
+
+header li {
+  
+}*/
+
+/* -------------------------------- MAIN STYLES -------------------------------- */
+
+/* -------- HERO ------- */
+.hero-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-img {
+
+}
+
+/* ---- SIGNUP FORM ---- */
+.form-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+form {
+
+}
+
+/*form label {
+
+}
+
+form input {
+
+}
+
+form button {
+
+}*/
+
+/* ------ FEATURES ----- */
+.features-section {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4,
+.feature-5,
+.feature-6 {
+
+}
+
+.feature-description {
+
+}
+
+.features-bg-img {
+
+}
+
+/* ------ REVIEWS ------ */
+.reviews-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.review {
+
+}
+
+/* ------------------------------- FOOTER STYLES ------------------------------- */
+
+/* --- CONTACT-FOOTER --- */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+footer address {
+
+}
+
+/* ------- SOCIAL ------ */
+.social {
+  display: flex;
+
+}
+
+/*footer ul {
+
+}
+
+footer li {
+
+}*/
+
+/* ----- COPYRIGHT ----- */
+.copyright {
+  display: flex;
+}
 
 /* ==========================================================================
    Helper classes
