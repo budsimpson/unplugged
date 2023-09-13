@@ -108,11 +108,18 @@ p {
 
 }
 
+.content-wrapper {
+  outline: 3px dotted red;
+  width: 90%;
+}
+
 /* ------------------------------- HEADER STYLES ------------------------------- */
 
-.header-wrapper{
+header {
   display: flex;
   justify-content: center;
+  /*outline: 3px dotted red;*/
+  background-color: #202322;
 }
 
 /* -------- LOGO ------- */
@@ -120,8 +127,17 @@ p {
 
 }
 
-.header-divider {
+.logo img {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+}
 
+.header-divider {
+  height: 1px;
+  background-color: #3a3a3a;
+  margin: 10px 0;
+  width: 90%;
 }
 
 /* ----- NAVIGATION ---- */
@@ -136,6 +152,47 @@ nav {
 header li {
   
 }*/
+
+/* ------------------------------- FOOTER STYLES ------------------------------- */
+
+/* --- CONTACT-FOOTER --- */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+footer address {
+
+}
+
+/* ------- SOCIAL ------ */
+.social {
+  display: flex;
+
+}
+
+/*footer ul {
+
+}
+
+footer li {
+
+}*/
+
+/* ----- COPYRIGHT ----- */
+.copyright {
+  display: flex;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* --------------------------------- HOME PAGE --------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
 /* -------------------------------- MAIN STYLES -------------------------------- */
 
@@ -217,41 +274,32 @@ form button {
 
 }
 
-/* ------------------------------- FOOTER STYLES ------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* -------------------------------- ABOUT PAGE --------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
-/* --- CONTACT-FOOTER --- */
-footer {
+/* ---------- MISSION ----------- */
+.mission-section {
   display: flex;
   justify-content: center;
 }
 
-.contact-footer {
+/* ------------- MAP ------------ */
+
+
+/* -------- CONTACT-MAIN -------- */
+.contact-section {
   display: flex;
   justify-content: center;
-
 }
 
-footer address {
+/* ----------------------------------------------------------------------------- */
+/* --------------------------------- FAQ PAGE ---------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
-}
-
-/* ------- SOCIAL ------ */
-.social {
+.faq-section {
   display: flex;
-
-}
-
-/*footer ul {
-
-}
-
-footer li {
-
-}*/
-
-/* ----- COPYRIGHT ----- */
-.copyright {
-  display: flex;
+  justify-content: center;
 }
 
 /* ==========================================================================
