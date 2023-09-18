@@ -89,7 +89,11 @@ textarea {
 /* ------------------------------- GLOBAL STYLES ------------------------------- */
 
 h1 {
-
+  color: #e2e3ed;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 }
 
 h2 {
@@ -129,11 +133,7 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-.logo {
-
-}
-
-.logo img {
+header img {
   max-width: 200px;
   height: auto;
 }
@@ -142,13 +142,23 @@ header .content-wrapper {
   height: 1px;
   background-color: #3a3a3a;
   margin: 10px 0;
-  width: 90%;
+  width: 100%;
 }
 
 /* ----- NAVIGATION ---- */
-header nav ul {
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
   display: flex;
-  justify-content: space-around;
+  gap: 50px;
+}
+
+nav a {
+  color: #e2e3ed;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
 
 /* ------------------------------- FOOTER STYLES ------------------------------- */
@@ -209,10 +219,15 @@ footer li {
 .hero-section {
   display: flex;
   justify-content: center;
+  background-image: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
 }
 
-.hero-img {
-
+.hero-section h1 {
+  margin-top: 70px;
 }
 
 /* ---- SIGNUP FORM ---- */
