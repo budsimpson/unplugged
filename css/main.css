@@ -96,25 +96,10 @@ h1 {
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
 }
 
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-p {
-
-}
-
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
+  margin: 50px 0;
 }
 
 /* ------------------------------- HEADER STYLES ------------------------------- */
@@ -123,6 +108,7 @@ header {
   display: flex;
   justify-content: center;
   background-color: #202322;
+  padding: 15px;
 }
 
 /* -------- LOGO ------- */
@@ -131,6 +117,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header img {
@@ -141,16 +128,21 @@ header img {
 .header-divider {
   height: 1px;
   background-color: #3a3a3a;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
   width: 100%;
 }
 
 /* ----- NAVIGATION ---- */
+nav {
+  width: 60%;
+}
+
 nav ul {
   list-style-type: none;
   padding-left: 0;
   display: flex;
-  gap: 50px;
+  /*gap: 50px;*/
+  width: 100%;
 }
 
 nav a {
@@ -163,6 +155,10 @@ nav a {
 
 /* ------------------------------- FOOTER STYLES ------------------------------- */
 
+footer p {
+  margin: 0;
+}
+
 /* --- CONTACT-FOOTER --- */
 footer {
   display: flex;
@@ -171,42 +167,33 @@ footer {
   text-align: center;
 }
 
-/*footer .content-wrapper {
-  flex-flow: row wrap;
-}*/
+/* ------- SOCIAL ------ */
+footer .content-wrapper {
+  width: 55%;
+}
 
 .contact-footer {
-  /*display: flex;
-  justify-content: center;*/
-
+  margin-bottom: 50px;
 }
 
-footer address {
-
-}
-
-/* ------- SOCIAL ------ */
-footer .social-icons {
+.social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 
 }
 
-footer .social-icons li {
+.social-icons li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-footer li {
-
 }
 
 /* ----- COPYRIGHT ----- */
 .copyright {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -226,39 +213,11 @@ footer li {
   min-height: 500px;
 }
 
-.hero-section h1 {
-  margin-top: 70px;
-}
-
 /* ---- SIGNUP FORM ---- */
 .form-section {
   display: flex;
   justify-content: center;
 }
-
-.form-description {
-
-}
-
-.form {
-
-}
-
-form {
-
-}
-
-/*form label {
-
-}
-
-form input {
-
-}
-
-form button {
-
-}*/
 
 /* ------ FEATURES ----- */
 .features-section {
@@ -266,28 +225,26 @@ form button {
   justify-content: center;
 }
 
-.features .features-items {
+.features-section h2 {
+  margin-bottom: 60px;
+}
+
+.features-section ul {
+  width: 63%;
+  list-style-type: none;
+  margin: 30px;
+  list-style-type: none;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-}
-
-.feature-1,
-.feature-2,
-.feature-3,
-.feature-4,
-.feature-5,
-.feature-6 {
-
-}
-
-.feature-description {
-
-}
-
-.features-bg-img {
-
 }
 
 /* ------ REVIEWS ------ */
@@ -296,8 +253,8 @@ form button {
   justify-content: center;
 }
 
-.review {
-
+.reviews-section h3 {
+  width: 55%;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -319,6 +276,10 @@ form button {
   justify-content: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /* ----------------------------------------------------------------------------- */
 /* --------------------------------- FAQ PAGE ---------------------------------- */
 /* ----------------------------------------------------------------------------- */
@@ -333,6 +294,15 @@ form button {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq-section h2 {
+  margin: 40px;
+}
+
+.faq-section dl {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
