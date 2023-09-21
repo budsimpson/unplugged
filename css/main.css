@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -94,6 +94,32 @@ h1 {
   line-height: 43px;
   font-weight: 500;
   font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #e2e3ed;
+  margin: 0;
+}
+
+h3, h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 1em;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 18px;
+  color: #e2e3ed;
 }
 
 .content-wrapper {
@@ -224,23 +250,87 @@ footer .content-wrapper {
 .form-section {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.input-container {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+}
+
+label, input {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+  color: #2a423a;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+input {
+  width: 100%;
+  padding: 1em 0 1em 0;
+}
+
+input[type="email"] {
+  text-indent: 10px;
+}
+
+button {
+  margin: 20px 0 0;
+  padding: 5px 0;
+  width: 100%;
+  background-color: #2a423a;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* ------ FEATURES ----- */
 .features-section {
   display: flex;
   justify-content: center;
+  background-image: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .features-section h2 {
   margin-bottom: 60px;
 }
 
-.features-section ul {
-  width: 63%;
+.features-items ul {
   list-style-type: none;
+  width: 60%;
   margin: 30px;
   list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.features-items li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
 }
 
 .features p {
@@ -252,6 +342,16 @@ footer .content-wrapper {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.features-items i {
+  color: #e2e3ed;
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+.feature-description {
+  margin-bottom: ;
 }
 
 /* ------ REVIEWS ------ */
