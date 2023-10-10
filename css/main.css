@@ -283,6 +283,12 @@ footer .content-wrapper {
   background-color: #527158;
 }
 
+.form-section .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
 form {
   display: flex;
   justify-content: center;
@@ -571,6 +577,21 @@ dd {
   max-width: 640px;
 }
 
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
 /* ------------------------------- HEADER STYLES ------------------------------- */
 
 /* -------- LOGO ------- */
@@ -597,7 +618,11 @@ nav ul li {
   
 }
 
-/* -------------------------------- MAIN STYLES -------------------------------- */
+/* ------------------------------- FOOTER STYLES ------------------------------- */
+
+
+
+/* -------------------------------- HOME PAGE -------------------------------- */
 
 /* -------- HERO ------- */
 
@@ -609,11 +634,41 @@ nav ul li {
   display: block;
 }
 
+.hero-section {
+  min-height: 600px;
+}
+
+/* ---- SIGNUP FORM ---- */
+.form-section .content-wrapper {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.form-description, .form {
+  width: 40%;
+  margin: 0px;
+}
+
+form {
+  margin-top: -25px;
+}
+
+input {
+  padding: .75em 0 .75em 0;
+}
+
+button {
+  margin: 0;
+  padding: 15px 0;
+}
+
 /* -------------------------------- ABOUT PAGE --------------------------------- */
 
 .map-section figure {
   padding-bottom: 45%;
 }
+
+/* -------------------------------- FAQ PAGE --------------------------------- */
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ DESKTOP STYLES ------------------------------- */
@@ -623,11 +678,22 @@ nav ul li {
   /* Desktop styles here */
 }
 
+/* ------------------------------- HEADER STYLES ------------------------------- */
+
+
+/* ------------------------------- FOOTER STYLES ------------------------------- */
+
+
+/* -------------------------------- HOME PAGE -------------------------------- */
+
+
 /* -------------------------------- ABOUT PAGE --------------------------------- */
 
 .map-section figure {
   padding-bottom: 38%;
 }
+
+/* -------------------------------- FAQ PAGE --------------------------------- */
 
 /* ==========================================================================
    Print styles.
