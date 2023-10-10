@@ -115,14 +115,15 @@ body {
   font-size: 1em;
 }
 
-p {
+p, dd {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   line-height: 18px;
   color: #e2e3ed;
 }
 
-ul, ol {
+ul, 
+ol {
   margin: 0;
 }
 
@@ -411,6 +412,7 @@ button {
 .mission-section {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 /* ------------- MAP ------------ */
@@ -420,6 +422,7 @@ button {
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -433,6 +436,7 @@ button {
 .faq-section {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq-section .content-wrapper {
@@ -444,11 +448,15 @@ button {
 }
 
 .faq-section h2 {
-  margin: 40px;
+  margin: 0 0 16px 0;
 }
 
 .faq-section dl {
   margin-bottom: 50px;
+}
+
+dd {
+  margin-inline-start: 0;
 }
 
 /* ==========================================================================
