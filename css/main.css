@@ -374,10 +374,6 @@ button {
   padding-top: 0;
 }
 
-.features p {
-  margin: 0;
-}
-
 .features-items {
   display: flex;
   justify-content: center;
@@ -391,11 +387,15 @@ button {
   margin-bottom: 40px;
 }
 
-.feature-description {
-  margin-bottom: ;
+/* ------ REVIEWS ------ */
+.mobile-reviews {
+  display: block;
 }
 
-/* ------ REVIEWS ------ */
+.tablet-reviews {
+  display: none;
+}
+
 .reviews-section {
   display: flex;
   justify-content: center;
@@ -592,6 +592,10 @@ h3 {
   line-height: 30px;
 }
 
+h4 {
+  font-size: 24px;
+}
+
 /* ------------------------------- HEADER STYLES ------------------------------- */
 
 /* -------- LOGO ------- */
@@ -619,8 +623,19 @@ nav ul li {
 }
 
 /* ------------------------------- FOOTER STYLES ------------------------------- */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.copyright {
+  width: 100%;
+}
 
+footer p {
+  line-height: 18px;
+}
 
 /* -------------------------------- HOME PAGE -------------------------------- */
 
@@ -662,8 +677,60 @@ button {
   padding: 15px 0;
 }
 
-/* -------------------------------- ABOUT PAGE --------------------------------- */
+/* ------ FEATURES ----- */
+.features-items ul {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: space-between;
+  gap: 10%;
+}
 
+.features-items li {
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: calc(50% - 5%);
+  box-sizing: border-box;
+}
+
+.features-items li:nth-child(2) {
+  padding-top: 0;
+}
+
+.feature-description {
+  width: 80%;
+}
+
+/* ------ REVIEWS ------ */
+.mobile-reviews {
+  display: none;
+}
+
+.tablet-reviews {
+  display: block;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.reviews-section figure, article {
+  width: 48%;
+}
+
+.review h3 {
+  width: 100%;
+  margin: 0;
+}
+
+.reviews-section img {
+    margin: 0;
+}
+
+/* -------------------------------- ABOUT PAGE --------------------------------- */
 .map-section figure {
   padding-bottom: 45%;
 }
