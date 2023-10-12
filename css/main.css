@@ -623,6 +623,10 @@ nav ul li {
 }
 
 /* ------------------------------- FOOTER STYLES ------------------------------- */
+footer .content-wrapper {
+  width: 65%;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -731,12 +735,61 @@ button {
 }
 
 /* -------------------------------- ABOUT PAGE --------------------------------- */
+
+/* ---------- MISSION ----------- */
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+}
+
+.mission-content p {
+  width: 45%;
+}
+
+/* ------------- MAP ------------ */
 .map-section figure {
   padding-bottom: 45%;
 }
 
-/* -------------------------------- FAQ PAGE --------------------------------- */
+/* -------- CONTACT-MAIN -------- */
+.contact-section .content-wrapper {
+  padding: 40px 0;
+}
 
+.contact-section h2 {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------------------------- FAQ PAGE --------------------------------- */
+.faq-section h4, p {
+  font-size: 14px;
+  line-height: 15.75px;
+}
+
+.faq-section h2 {
+  margin: 0;
+}
+
+.faq-section .content-wrapper {
+  justify-content: flex-start;
+}
+
+.faqs {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+  width: 45%;
+  margin: 20px 0;
+}
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ DESKTOP STYLES ------------------------------- */
 /* ----------------------------------------------------------------------------- */
