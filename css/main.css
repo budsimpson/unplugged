@@ -798,22 +798,100 @@ button {
   /* Desktop styles here */
 }
 
+.content-wrapper{
+  max-width: 960px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3,
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 /* ------------------------------- HEADER STYLES ------------------------------- */
+/* -------- LOGO ------- */
+
 
 
 /* ------------------------------- FOOTER STYLES ------------------------------- */
 
 
+
 /* -------------------------------- HOME PAGE -------------------------------- */
+/* -------- HERO ------- */
+.hero-section {
+  max-height: 600px;
+}
 
 
+/* ---- SIGNUP FORM ---- */
+.form-section .content-wrapper {
+  justify-content: space-around;
+}
+
+.form-description, .form {
+  width: 30%;
+}
+
+/* ------ FEATURES ----- */
+.features-items ul {
+  gap: 10%;
+}
+
+.features-items li {
+  flex-basis: calc(33% - 7%);
+  box-sizing: border-box;
+}
+
+.feature-description {
+  width: 100%;
+}
+
+/* ------ REVIEWS ------ */
+.mobile-reviews {
+  display: block;
+}
+
+.tablet-reviews {
+  display: none;
+}
+
+.review {
+  margin-top: 50px;
+}
+
+.reviews-section figure, article {
+  width: 47%;
+}
 /* -------------------------------- ABOUT PAGE --------------------------------- */
+/* ---------- MISSION ----------- */
 
+
+
+/* ------------- MAP ------------ */
 .map-section figure {
   padding-bottom: 38%;
 }
 
+/* -------- CONTACT-MAIN -------- */
+
+
+
 /* -------------------------------- FAQ PAGE --------------------------------- */
+
+
 
 /* ==========================================================================
    Print styles.
