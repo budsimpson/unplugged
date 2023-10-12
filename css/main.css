@@ -877,8 +877,18 @@ p {
 }
 /* -------------------------------- ABOUT PAGE --------------------------------- */
 /* ---------- MISSION ----------- */
+.mission-section h2 {
+  font-size: 48px;
+  width: 90%;
+}
 
+.contact-section h2 {
+  font-size: 48px;
+}
 
+.mission-section .content-wrapper {
+  margin: 100px;
+}
 
 /* ------------- MAP ------------ */
 .map-section figure {
@@ -886,7 +896,9 @@ p {
 }
 
 /* -------- CONTACT-MAIN -------- */
-
+.contact-section h2 {
+  width: 85%;
+}
 
 
 /* -------------------------------- FAQ PAGE --------------------------------- */
