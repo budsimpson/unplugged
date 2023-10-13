@@ -128,7 +128,6 @@ ol {
 }
 
 .content-wrapper {
-  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -185,7 +184,6 @@ nav ul {
   padding-left: 0;
   display: flex;
   justify-content: space-around;
-  /*gap: 50px;*/
   width: 100%;
 }
 
@@ -618,10 +616,6 @@ nav ul {
   justify-content: space-between;
 }
 
-nav ul li {
-  
-}
-
 /* ------------------------------- FOOTER STYLES ------------------------------- */
 footer .content-wrapper {
   width: 65%;
@@ -688,7 +682,7 @@ button {
   flex-wrap: wrap;
   margin: 0;
   justify-content: space-between;
-  gap: 10%;
+  gap: 20%;
 }
 
 .features-items li {
